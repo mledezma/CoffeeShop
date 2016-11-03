@@ -1,0 +1,24 @@
+.who {
+    height: 412px;
+}
+
+.who img{
+    float: left;
+    height: 407px;
+    width: 50%;
+}
+
+.who-content {
+    background-color: #664735;
+    color: #fff;
+    display: inline-block;
+    height: 297px;
+    padding: 60px 90px 50px 50px;
+    width: 42%;
+}
+
+.btn-more {
+    color: #664735;
+    font-family: $secondary-font;
+    padding: 15px;
+}

@@ -1,0 +1,20 @@
+nav {
+    background-color: #f5f4f4;
+    border-radius: 35px;
+    float: right;
+    padding: 25px 0;
+}
+
+nav > a {
+    border-right: 1px solid  #e6e6e6;
+    color: $light-gray;
+    font: 10px $secondary-font;
+    font-size: 14.27px;
+    padding: 25px 27px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:last-child {
+        border-right: none;
+    }
+}

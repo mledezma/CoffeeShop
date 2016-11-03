@@ -1,0 +1,189 @@
+body, header, h1, h2, h3, nav, a, div, ul, li, img, main, footer {
+  margin: 0;
+  padding: 0; }
+
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase; }
+
+h2,
+h3 {
+  font: 17px "Lato", sans-serif; }
+
+h1,
+h2,
+.info-module h3,
+.gallery-box h3 {
+  color: #9d9c9d; }
+
+h1 {
+  font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 1100px; }
+
+.full-wrapper {
+  width: 100%; }
+
+.title {
+  display: inline; }
+
+.title-bold {
+  color: #664735;
+  font-family: "Lato", sans-serif; }
+
+.title-cursive {
+  font-family: "Montez", cursive;
+  font-size: 54.15px; }
+
+nav {
+  background-color: #f5f4f4;
+  border-radius: 35px;
+  float: right;
+  padding: 25px 0; }
+
+nav > a {
+  border-right: 1px solid  #e6e6e6;
+  color: #9d9c9d;
+  font: 10px "Lato", sans-serif;
+  font-size: 14.27px;
+  padding: 25px 27px 20px;
+  text-decoration: none;
+  text-transform: uppercase; }
+  nav > a:last-child {
+    border-right: none; }
+
+header {
+  padding: 40px 0; }
+
+.slider-content {
+  float: left;
+  margin: 0 150px 80px 95px;
+  width: 415px; }
+  .slider-content p {
+    color: #9d9c9d; }
+  .slider-content a {
+    color: #6f6d6d;
+    font-style: italic;
+    text-decoration: none; }
+
+.slider {
+  position: relative; }
+
+.slider a {
+  text-decoration: none; }
+
+.slider-prev {
+  left: 0;
+  position: absolute;
+  top: 50%; }
+
+.slider-next {
+  right: 0;
+  position: absolute;
+  top: 50%; }
+
+.slider-nav {
+  bottom: 0;
+  left: 50%;
+  position: absolute; }
+
+.slider-nav li {
+  display: inline-block; }
+
+.slider-nav a {
+  display: block;
+  height: 9px;
+  width: 9px; }
+
+.noselected-option {
+  background-image: url("../img/icon/noselected-option.png"); }
+
+.selected-option {
+  background-image: url("../img/icon/selected-option.png"); }
+
+.slider {
+  margin-top: 60px;
+  margin-bottom: 135px; }
+
+.info-module {
+  display: inline-block;
+  margin-right: 111px;
+  text-align: center;
+  width: 290px; }
+  .info-module:last-child {
+    margin-right: 0; }
+
+.info {
+  margin-bottom: 140px; }
+
+.who {
+  height: 412px; }
+
+.who img {
+  float: left;
+  height: 407px;
+  width: 50%; }
+
+.who-content {
+  background-color: #664735;
+  color: #fff;
+  display: inline-block;
+  height: 297px;
+  padding: 60px 90px 50px 50px;
+  width: 42%; }
+
+.btn-more {
+  color: #664735;
+  font-family: "Lato", sans-serif;
+  padding: 15px; }
+
+.gallery-box {
+  text-align: center; }
+  .gallery-box p {
+    color: #b5b4b5; }
+
+.gallery-img img {
+  height: 250px;
+  width: 300px; }
+
+.gallery-box {
+  margin-top: 150px;
+  margin-bottom: 145px; }
+
+footer {
+  background-image: url("../img/icon/footer-patterns.png");
+  color: #fff; }
+
+.footer-info {
+  display: inline-block;
+  float: left;
+  margin-right: 37px;
+  width: 235px; }
+  .footer-info li {
+    list-style: none; }
+
+.footer-wrapper {
+  padding: 15px 0;
+  height: 210px; }
+
+.copy {
+  color: #666666;
+  font-style: italic; }
+
+.arrow-center {
+  text-align: center; }
+
+.arrow-top {
+  text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */

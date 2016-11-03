@@ -1,0 +1,10 @@
+.info-module {
+    display: inline-block;
+    margin-right: 111px;
+    text-align: center;
+    width: 290px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}

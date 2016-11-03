@@ -1,0 +1,25 @@
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+h2,
+h3 {
+    font: 17px $secondary-font;
+}
+
+h1,
+h2,
+.info-module h3,
+.gallery-box h3 {
+    color: $light-gray;
+}
+
+h1 {
+    font: 14px $primary-font;
+}
+
+p {
+    font-family: $primary-font; 
+}

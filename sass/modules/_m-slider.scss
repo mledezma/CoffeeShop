@@ -1,0 +1,61 @@
+// Slider Content
+.slider-content {
+    float: left;
+    margin: 0 150px 80px 95px;
+    width: 415px;
+
+    p {
+        color: $light-gray;
+    }
+
+    a{
+        color: #6f6d6d;
+        font-style: italic;
+        text-decoration: none;
+    }
+}
+
+// Slider Controls
+.slider {
+    position: relative;
+}
+
+.slider a {
+    text-decoration: none;
+}
+
+.slider-prev {
+    left: 0;
+    position: absolute;
+    top: 50%;
+}
+
+.slider-next {
+    right: 0;
+    position: absolute;
+    top: 50%;
+}
+
+.slider-nav {
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+}
+
+.slider-nav li {
+    display: inline-block;
+}
+
+.slider-nav a {
+    display: block;
+    height: 9px;
+    width: 9px;
+}
+
+.noselected-option {
+    background-image: url("../img/icon/noselected-option.png");
+}
+
+.selected-option {
+    background-image: url("../img/icon/selected-option.png");
+}

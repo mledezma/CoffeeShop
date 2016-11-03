@@ -1,0 +1,20 @@
+footer {
+    background-image: url("../img/icon/footer-patterns.png");
+    color: #fff;
+}
+
+.footer-info {
+    display: inline-block;
+    float: left;
+    margin-right: 37px;
+    width: 235px;
+
+    li {
+        list-style: none;
+    }
+}
+
+.footer-wrapper {
+    padding: 15px 0;
+    height: 210px;
+}
