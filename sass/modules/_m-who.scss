@@ -1,24 +1,21 @@
-.who {
-    height: 412px;
-}
-
 .who img{
     float: left;
-    height: 407px;
+    height: 25.4375em;
     width: 50%;
 }
 
 .who-content {
     background-color: #664735;
+    box-sizing: border-box;
     color: #fff;
     display: inline-block;
-    height: 297px;
-    padding: 60px 90px 50px 50px;
-    width: 42%;
+    height: 25.4375em;
+    padding: 3.75em 5.625em 3.125em 3.125em;
+    width: 50%;
 }
 
 .btn-more {
     color: #664735;
     font-family: $secondary-font;
-    padding: 15px;
+    padding: 0.9375em;
 }
