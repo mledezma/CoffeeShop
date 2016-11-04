@@ -1,20 +1,25 @@
 nav {
     background-color: #f5f4f4;
-    border-radius: 35px;
+    border-radius: 34px;
+    box-sizing: border-box;
     float: right;
-    padding: 25px 0;
+    padding: 2.2% 0;
+    width: 50%;
 }
 
 nav > a {
     border-right: 1px solid  #e6e6e6;
     color: $light-gray;
-    font: 10px $secondary-font;
-    font-size: 14.27px;
-    padding: 25px 27px 20px;
+    font: 14px $secondary-font;
+    padding: 3% 4% 4%;
     text-decoration: none;
     text-transform: uppercase;
 
     &:last-child {
         border-right: none;
     }
+}
+
+.nav {
+    margin-bottom: 4.5%;
 }
