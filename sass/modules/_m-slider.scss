@@ -1,4 +1,8 @@
 // Slider Content
+.slider {
+    position: relative;
+}
+
 .slider-content {
     float: left;
     margin: 0 150px 80px 95px;
@@ -16,10 +20,6 @@
 }
 
 // Slider Controls
-.slider {
-    position: relative;
-}
-
 .slider a {
     text-decoration: none;
 }

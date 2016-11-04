@@ -65,6 +65,9 @@ nav > a {
 header {
   padding: 40px 0; }
 
+.slider {
+  position: relative; }
+
 .slider-content {
   float: left;
   margin: 0 150px 80px 95px;
@@ -75,9 +78,6 @@ header {
     color: #6f6d6d;
     font-style: italic;
     text-decoration: none; }
-
-.slider {
-  position: relative; }
 
 .slider a {
   text-decoration: none; }
@@ -122,6 +122,11 @@ header {
   width: 290px; }
   .info-module:last-child {
     margin-right: 0; }
+  .info-module a {
+    color: #664735;
+    text-decoration: none; }
+  .info-module p {
+    color: #9d9c9d; }
 
 .info {
   margin-bottom: 140px; }
